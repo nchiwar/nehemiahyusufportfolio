@@ -32,7 +32,7 @@ const Hero = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            I craft beautiful, performant web and mobile applications. 
+            I craft beautiful, high performance website and mobile applications. 
             Specializing in React, Django, Flutter, React Native and UI/UX design.
           </p>
 
