@@ -74,7 +74,7 @@ const Projects = () => {
     {
       title: "HealthCare Hub Website",
       description: "A modern hospital and pharmacy website built with React and Tailwind CSS, featuring a secure patient portal, real-time appointment scheduling, and an integrated e-commerce pharmacy.",
-      image: EduWebsite,
+      image: HealthCareWebsite,
       tags: ["React", "Redux", "Tailwind CSS"],
       github: "https://github.com/nchiwar/hospitalwebsite.git",
       demo: "https://nchiwar.github.io/hospitalwebsite/",
