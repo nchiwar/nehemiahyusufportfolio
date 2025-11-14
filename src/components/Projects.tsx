@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import EduWebsite from '../assets/images/EduWebsite.jpg';
 import ChurchWebsite from '../assets/images/ChurchWebsite.jpg';
 import ADTNWebsite from '../assets/images/ADTNWebsite.jpg';
-import PathWebsite from '../assets/images/PathWebsite.jpg';
+import FinanceDashboard from '../assets/images/Finance Dashboard.png';
 import Translator from '../assets/images/Translator.jpg';
 import Wallet from '../assets/images/Wallet.jpg';
 import NGOWebsite from '../assets/images/NGOWebsite.jpg';
@@ -30,12 +30,12 @@ const Projects = () => {
       demo: null,
     },
     {
-      title: "Personalized Learning Path Generator",
-      description: "Multi-step form to generate learning paths based on career goals. Dashboard with course cards (Beginner, Intermediate, Advanced). Track course progress in localStorage. Export roadmaps as PDF. Responsive UI with Tailwind CSS.",
-      image: PathWebsite,
+      title: "Finance Management Dashboard",
+      description: "Finance management dashboard for small businesses. The web app allow a business owner to: Create and manage invoices, Mark invoices as paid or unpaid, Auto-calculate VAT, View financial summaries (total revenue, pending invoices, VAT collected).",
+      image: FinanceDashboard,
       tags: ["React 18+", "Vite", "TypeScript Zustand", "React Router v6", "Zustand"],
-      github: "https://github.com/nchiwar/pathgenerator.git",
-      demo: "https://pathgenerator-rhc71vzbo-nehemiahs-projects-daec9660.vercel.app/",
+      github: "https://github.com/nchiwar/financedashboard.git",
+      demo: "https://financedashboard-coral.vercel.app/",
     },
     {
       title: "Church Website",
