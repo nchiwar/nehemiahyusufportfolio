@@ -33,7 +33,7 @@ const Projects = () => {
       title: "Finance Management Dashboard",
       description: "Finance management dashboard for small businesses. The web app allow a business owner to: Create and manage invoices, Mark invoices as paid or unpaid, Auto-calculate VAT, View financial summaries (total revenue, pending invoices, VAT collected).",
       image: FinanceDashboard,
-      tags: ["React 18+", "Vite", "TypeScript Zustand", "React Router v6", "Zustand"],
+      tags: ["React 18+", "Vite", "TypeScript", "Tailwind CSS v4", "shadcn/u", "Appwrite (Auth + Database)", "Recharts", "React Hook Form + Zod", "Vercel", "React Router v6", "Custom Hooks + React Context"],
       github: "https://github.com/nchiwar/financedashboard.git",
       demo: "https://financedashboard-coral.vercel.app/",
     },
