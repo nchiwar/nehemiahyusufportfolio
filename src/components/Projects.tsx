@@ -8,6 +8,7 @@ import FinanceDashboard from '../assets/images/Finance Dashboard.png';
 import Translator from '../assets/images/Translator.jpg';
 import Wallet from '../assets/images/Wallet.jpg';
 import EmpowerChain from '../assets/images/EmpowerChain.jpg';
+import Setlinn from '../assets/images/Setlinn.jpg';
 
 const Projects = () => {
   const projects = [
@@ -27,6 +28,14 @@ const Projects = () => {
       github: "https://github.com/nchiwar/text_to_video_sign_language_app.git",
       challenges: "Implemented real-time video processing for sign language recognition",
       demo: null,
+    },
+    {
+      title: "SetLinn Migration Hub (A Simulation Project)",
+      description: "s the world's largest migration support community platform dedicated to helping migrants settle into their new lives in Germany and beyond. We connect global migrants through shared experiences, verified resources, and ongoing support — from residence permits to housing, jobs, language learning, and community.",
+      image: Setlinn,
+      tags: ["React.js + Vite", " TypeScript", "Tailwind CSS", "React Router v6", "React Hooks", "Supabase", "Vercel"],
+      github: "https://github.com/nchiwar/setlinn.git",
+      demo: "https://setlinn-krw2.vercel.app/",
     },
     {
       title: "New Horizon Academy",
