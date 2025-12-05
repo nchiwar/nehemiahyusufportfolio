@@ -1,15 +1,14 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import EduWebsite from '../assets/images/EduWebsite.jpg';
-import ChurchWebsite from '../assets/images/ChurchWebsite.jpg';
+import EternalGraceFellowship from '../assets/images/EternalGraceFellowship.jpg';
+import NewHorizoneAcademy from '../assets/images/NewHorizoneAcademy.jpg';
 import ADTNWebsite from '../assets/images/ADTNWebsite.jpg';
 import FinanceDashboard from '../assets/images/Finance Dashboard.png';
 import Translator from '../assets/images/Translator.jpg';
 import Wallet from '../assets/images/Wallet.jpg';
-import NGOWebsite from '../assets/images/NGOWebsite.jpg';
-import HealthCareWebsite from '../assets/images/HealthCareWebsite.jpg';
-import Todo from '../assets/images/Todo.jpg';
+import EmpowerChain from '../assets/images/EmpowerChain.jpg';
+
 const Projects = () => {
   const projects = [
     {
@@ -30,6 +29,14 @@ const Projects = () => {
       demo: null,
     },
     {
+      title: "New Horizon Academy",
+      description: "New Horizon Academy is a modern, full-stack web application for a premier primary and secondary school in Nigeria. Built with React (TypeScript) for a dynamic, responsive frontend and Django for a robust backend, this project delivers an engaging platform for prospective families, parents, and students",
+      image: NewHorizoneAcademy,
+      tags: ["React 18+", " TypeScript", "Tailwind CSS", "React Router v6", "Django", "Axios", "Vercel"],
+      github: "https://github.com/nchiwar/horizon-academy-digital.git",
+      demo: "https://horizon-academy-digital.vercel.app/",
+    },
+    {
       title: "Finance Management Dashboard",
       description: "Finance management dashboard for small businesses. The web app allow a business owner to: Create and manage invoices, Mark invoices as paid or unpaid, Auto-calculate VAT, View financial summaries (total revenue, pending invoices, VAT collected).",
       image: FinanceDashboard,
@@ -37,21 +44,13 @@ const Projects = () => {
       github: "https://github.com/nchiwar/financedashboard.git",
       demo: "https://financedashboard-coral.vercel.app/",
     },
-    {
-      title: "Church Website",
-      description: "A modern, responsive single-page application for a church, featuring event management, sermon archives, and online donations.",
-      image: ChurchWebsite,
-      tags: ["React", "Custom CSS", "Redux", "YouTube API"],
-      github: "https://github.com/nchiwar/churchwebsite.git",
-      demo: "https://nchiwar.github.io/churchwebsite/",
-    },
      {
-      title: "EduHub Schools Website",
-      description: "A modern, dynamic website for Primary and Secondary schools, built with React and Tailwind CSS, featuring a virtual tour, role-based access, and Faculty/Student Portal pages",
-      image: EduWebsite,
-      tags: ["React", "HTML", "CSS"],
-      github: "https://github.com/nchiwar/schoolwebsite.git",
-      demo: "https://nchiwar.github.io/schoolwebsite/",
+      title: "Eternal Grace Fellowship",
+      description: "A modern, full-featured church website for Eternal Grace Fellowship",
+      image: EternalGraceFellowship,
+      tags: ["React 18 with TypeScript", "Tailwind CSS", "React Router", "Shadcn/ui", "Django REST API endpoints"],
+      github: "https://github.com/nchiwar/eternal-grace-connect.git",
+      demo: "https://eternal-grace-connect.vercel.app/",
     },
     {
       title: "Digital Wallet for Multiple Credit and Debit Cards",
@@ -63,29 +62,14 @@ const Projects = () => {
 
     },
     {
-      title: "GreenEarth NGO Website",
-      description: "A responsive, multilingual NGO website built with React, Redux, and custom CSS, featuring a green-themed design with advanced functionality.",
-      image: NGOWebsite,
-      tags: ["React", "Redux", "Tailwind CSS", "Custom CSS"],
-      github: "https://github.com/nchiwar/ngowebsite.git",
-      demo: "https://nchiwar.github.io/ngowebsite/",
-      challenges: "Implemented multilingual support and dynamic content loading for better user engagement."
-    },
-    {
-      title: "HealthCare Hub Website",
-      description: "A modern hospital and pharmacy website built with React and Tailwind CSS, featuring a secure patient portal, real-time appointment scheduling, and an integrated e-commerce pharmacy.",
-      image: HealthCareWebsite,
-      tags: ["React", "Redux", "Tailwind CSS"],
-      github: "https://github.com/nchiwar/hospitalwebsite.git",
-      demo: "https://nchiwar.github.io/hospitalwebsite/",
-      challenges: ""
-    },
-    {
-      title: "A Simple Todo App",
-      description: "A simple and intuitive Todo application built with Flutter and Hive Database, allowing users to manage tasks efficiently with features like adding, editing, deleting, and marking tasks as complete.",
-      image: Todo,
-      tags: ["Flutter", "Hive"],
+      title: "Empower Chain Network",
+      description: "EmpowerChain Network is an innovative full-stack NGO website amplifying social change in Nigeria and globally. Built with React (TypeScript) for an immersive frontend and Django for a reliable backend, it showcases ongoing projects, facilitates secure donations, and matches volunteers via AI",
+      image: EmpowerChain,
+      tags: ["React 18+", "TypeScript", "Tailwind CSS", "React Router v6", "Django", "Socket.io", "Vercel"],
+      github: "https://github.com/nchiwar/empowerchain-connect.git",
+      demo: "https://empowerchain-connect.vercel.app/",
     }
+
   ];
 
   return (
