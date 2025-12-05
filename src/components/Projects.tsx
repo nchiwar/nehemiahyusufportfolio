@@ -31,7 +31,7 @@ const Projects = () => {
     },
     {
       title: "SetLinn Migration Hub (A Simulation Project)",
-      description: "s the world's largest migration support community platform dedicated to helping migrants settle into their new lives in Germany and beyond. We connect global migrants through shared experiences, verified resources, and ongoing support — from residence permits to housing, jobs, language learning, and community.",
+      description: "Setlinn is the world's largest migration support community platform dedicated to helping migrants settle into their new lives in Germany and beyond. We connect global migrants through shared experiences, verified resources, and ongoing support — from residence permits to housing, jobs, language learning, and community.",
       image: Setlinn,
       tags: ["React.js + Vite", " TypeScript", "Tailwind CSS", "React Router v6", "React Hooks", "Supabase", "Vercel"],
       github: "https://github.com/nchiwar/setlinn.git",
