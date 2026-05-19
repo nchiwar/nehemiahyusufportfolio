@@ -9,17 +9,29 @@ import Translator from '../assets/images/Translator.jpg';
 import Wallet from '../assets/images/Wallet.jpg';
 import EmpowerChain from '../assets/images/EmpowerChain.jpg';
 import Setlinn from '../assets/images/Setlinn.jpg';
+import binta from '../assets/images/binta.jpg';
+import iwc from '../assets/images/iwc.jpg';
+import propti from '../assets/images/propti.jpg';
+import thawigs from '../assets/images/thawigs.png';
 
 const Projects = () => {
   const projects = [
     {
-      title: "Association of Dental Tecnologist of Nigeria",
-      description: "ADTN Nigeria is the official website of the Association of Dental Technologists of Nigeria (ADTN). It serves as a professional hub for dental technologists across Nigeria, offering: Latest news & events in dental technology, Membership registration & benefits, CPD (Continuing Professional Development) updates, Publications, resources, and policy documents, Online enquiry & contact system. A clean, modern platform built to connect, inform, and empower Nigeria’s dental technology community.",
-      image: ADTNWebsite,
-      tags: ["React", "HTML", "CSS", "Javascripts" ,"Django", "PostgreSQL", "Paystack", "Render"],
-      github: "https://github.com/nchiwar/adtn_nigeria_project.git",
-      demo: "https://adtn-nigeria-project.onrender.com/",
+      title: "IWC Exchange (Cryptocurrency Platform)",
+      description: "A comprehensive cryptocurrency exchange platform featuring functionalities similar to Binance and TrustWallet. Engineered the cross-platform mobile application using Flutter with Provider for state management, while building the responsive web interface in React. Developed a robust, secure backend architecture using FastAPI and PostgreSQL to handle REST API integrations seamlessly across all platforms.",
+      image: iwc,
+      tags: ["Flutter", "Dart", "Provider", "React", "Tailwind CSS", "FastAPI", "PostgreSQL"],
+      demo: "https://www.iwcexchange.com",
     },
+
+    {
+      title: "Proptibank Mobile App",
+      description: "Coded the mobile interface for a modern investment property application. Responsible for translating UI/UX designs into fully functional, interactive mobile components and seamlessly integrating available backend endpoints to deliver a smooth and responsive user experience.",
+      image: propti,
+      tags: ["React Native", "JavaScript", "REST APIs", "Mobile UI"],
+      demo: "https://play.google.com/store/apps/details?id=com.realcod3r.moapp1",
+    },
+
     {
       title: "Sign Language Translator App",
       description: "Mobile-first Sign Language Translator, thats use for hard of hearing communcation effectively. Cross-platform React app with Django backend and JSON File for Mapping.",
@@ -28,6 +40,31 @@ const Projects = () => {
       github: "https://github.com/nchiwar/text_to_video_sign_language_app.git",
       challenges: "Implemented real-time video processing for sign language recognition",
       demo: null,
+    },
+
+    {
+      title: "Thawigs Multiconcepts (Loan Management Platform)",
+      description: "Thawigs Multiconcepts is a comprehensive loan management platform designed to streamline the lending process for financial institutions. Built with a modern tech stack, it offers features like automated credit scoring, real-time risk assessment, and seamless integration with existing banking systems.",
+      image: thawigs,
+      tags: ["PHP", "Laravel", "HTML", "CSS", "UI/UX Design"],
+      demo: "http://thawigsmulticoncept.com/",
+    },
+
+    {
+      title: "Princess Diana Madaki Foundation",
+      description: "The Princess Diana Madaki Foundation is dedicated to improving the lives of underprivileged children in Nigeria through education, healthcare, and community development initiatives.",
+      image: binta,
+      tags: [" React", "JavaScript", "tailwindCSS", "Responsive Design"],
+      demo: "https://pbdmfoundation.vercel.app/",
+    },
+
+    {
+      title: "Association of Dental Tecnologist of Nigeria",
+      description: "ADTN Nigeria is the official website of the Association of Dental Technologists of Nigeria (ADTN). It serves as a professional hub for dental technologists across Nigeria, offering: Latest news & events in dental technology, Membership registration & benefits, CPD (Continuing Professional Development) updates, Publications, resources, and policy documents, Online enquiry & contact system. A clean, modern platform built to connect, inform, and empower Nigeria’s dental technology community.",
+      image: ADTNWebsite,
+      tags: ["React", "HTML", "CSS", "Javascripts" ,"Django", "PostgreSQL", "Paystack", "Render"],
+      github: "https://github.com/nchiwar/adtn_nigeria_project.git",
+      demo: "https://adtn-nigeria-project.onrender.com/",
     },
     {
       title: "SetLinn Migration Hub (A Simulation Project)",
@@ -38,28 +75,12 @@ const Projects = () => {
       demo: "https://setlinn-krw2.vercel.app/",
     },
     {
-      title: "New Horizon Academy",
-      description: "New Horizon Academy is a modern, full-stack web application for a premier primary and secondary school in Nigeria. Built with React (TypeScript) for a dynamic, responsive frontend and Django for a robust backend, this project delivers an engaging platform for prospective families, parents, and students",
-      image: NewHorizoneAcademy,
-      tags: ["React 18+", " TypeScript", "Tailwind CSS", "React Router v6", "Django", "Axios", "Vercel"],
-      github: "https://github.com/nchiwar/horizon-academy-digital.git",
-      demo: "https://horizon-academy-digital.vercel.app/",
-    },
-    {
       title: "Finance Management Dashboard",
       description: "Finance management dashboard for small businesses. The web app allow a business owner to: Create and manage invoices, Mark invoices as paid or unpaid, Auto-calculate VAT, View financial summaries (total revenue, pending invoices, VAT collected).",
       image: FinanceDashboard,
       tags: ["React 18+", "Vite", "TypeScript", "Tailwind CSS v4", "shadcn/u", "Appwrite (Auth + Database)", "Recharts", "React Hook Form + Zod", "Vercel", "React Router v6", "Custom Hooks + React Context"],
       github: "https://github.com/nchiwar/financedashboard.git",
       demo: "https://financedashboard-coral.vercel.app/",
-    },
-     {
-      title: "Eternal Grace Fellowship",
-      description: "A modern, full-featured church website for Eternal Grace Fellowship",
-      image: EternalGraceFellowship,
-      tags: ["React 18 with TypeScript", "Tailwind CSS", "React Router", "Shadcn/ui", "Django REST API endpoints"],
-      github: "https://github.com/nchiwar/eternal-grace-connect.git",
-      demo: "https://eternal-grace-connect.vercel.app/",
     },
     {
       title: "Digital Wallet for Multiple Credit and Debit Cards",
@@ -70,14 +91,6 @@ const Projects = () => {
       demo: null,
 
     },
-    {
-      title: "Empower Chain Network",
-      description: "EmpowerChain Network is an innovative full-stack NGO website amplifying social change in Nigeria and globally. Built with React (TypeScript) for an immersive frontend and Django for a reliable backend, it showcases ongoing projects, facilitates secure donations, and matches volunteers via AI",
-      image: EmpowerChain,
-      tags: ["React 18+", "TypeScript", "Tailwind CSS", "React Router v6", "Django", "Socket.io", "Vercel"],
-      github: "https://github.com/nchiwar/empowerchain-connect.git",
-      demo: "https://empowerchain-connect.vercel.app/",
-    }
 
   ];
 
@@ -89,8 +102,8 @@ const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A selection of projects showcasing my skills in full-stack development, 
-            mobile apps, and UI/UX design. Each project solved real-world problems.
+            A selection of projects showcasing my skills in Mobile Application Development and Full-Stack Development, 
+            Each project solved real-world problems.
           </p>
         </div>
 

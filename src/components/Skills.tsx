@@ -3,29 +3,31 @@ import { Code2, Database, Smartphone, Palette } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
+      icon: Smartphone,
+      title: "Mobile",
+      skills: ["Flutter", "Dart", "React Native", "Swift", "Mobile UI", "Cross-platform"],
+      color: "primary"
+    },
+    {
       icon: Code2,
       title: "Frontend",
-      skills: ["HTML5", "CSS3", "JavaScript", "React", "TypeScript", "Vite", "Tailwind CSS"],
+      skills: ["React", "Next.js", "Typescripts", "HTML5", "CSS3", "JavaScript", "Vite", "Tailwind CSS"],
       color: "primary"
     },
     {
       icon: Database,
       title: "Backend",
-      skills: ["Python", "Django", "REST APIs", "Node.js", "Authentication"],
+      skills: ["Python", "FastAPI", "Django", "REST APIs", "Node.js",],
       color: "accent"
     },
+
     {
-      icon: Smartphone,
-      title: "Mobile",
-      skills: ["Flutter", "React Native", "Dart", "Mobile UI", "Cross-platform"],
-      color: "primary"
-    },
-    {
-      icon: Palette,
-      title: "Design",
-      skills: ["UI/UX", "Figma", "Prototyping", "Responsive Design", "Accessibility"],
+      icon: Database,
+      title: "Database",
+      skills: ["PostgreSQL", "MongoDB", "mySQL", "Firebase",],
       color: "accent"
-    }
+    },
+    
   ];
 
   return (

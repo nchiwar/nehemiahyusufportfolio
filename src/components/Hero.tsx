@@ -16,7 +16,7 @@ const Hero = () => {
           {/* Greeting */}
           <div className="inline-block">
             <span className="text-muted-foreground text-lg md:text-xl font-mono">
-              Hi, my name is
+              Hi, I am
             </span>
           </div>
 
@@ -27,13 +27,13 @@ const Hero = () => {
 
           {/* Title */}
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground/90">
-            Full-Stack Developer & Designer
+            Mobile Application Developer Full-Stack Web Developer
           </h2>
 
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            I craft beautiful, high performance website and mobile applications. 
-            Specializing in React, Django, Flutter, React Native and UI/UX design.
+            I craft beautiful, high performance Mobile Applications and Web Application. 
+            Specializing in Flutter, Dart, React Native, React, FastAPI, Python, Node.js, PHP/Laravel, PostgreSQL, REST APIs, Git/CI-CD.
           </p>
 
           {/* CTA Buttons */}
